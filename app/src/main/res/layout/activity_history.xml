@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_med"
+    android:padding="10dp"
+    tools:context=".History">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_bg_white"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/back"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="History Transaction"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Sate Ayam Madura"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Es Teh Nabi Adam"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Mie Ayam depan Hosel"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Bubur Ayam 24 Jam"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Warmindo Sumber Rejeki 01"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Hanachick"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Warunk Budhe"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Angkringan Mbak Novi"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pallet_light"
+            android:padding="18dip"
+            android:text="Angkringan Silo"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:backgroundTint="@color/pallet_med"
+            android:padding="18dip"
+            android:text="See More"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+
+</TableLayout>

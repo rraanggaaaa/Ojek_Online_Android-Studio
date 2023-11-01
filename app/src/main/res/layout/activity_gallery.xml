@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery"
+    android:orientation="vertical"
+    android:background="@color/white_med">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_bg_white"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnBackGallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/custom_bg_white">
+
+
+                    <ImageView
+                        android:id="@+id/imgvw1"
+                        android:layout_width="400dp"
+                        android:layout_height="432dp"
+                        android:padding="30dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hanachick" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:background="@color/pallet_light"
+                        android:padding="10dp"
+                        android:text="29 Oct 2023"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/custom_bg_pallet_dark"
+                        android:padding="10dp"
+                        android:text="Hanachick, Yogyakarta"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:fontFamily="monospace"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/custom_bg_white">
+
+                    <ImageView
+                        android:layout_width="400dp"
+                        android:layout_height="432dp"
+                        android:padding="30dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/motor_beat" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:background="@color/pallet_light"
+                        android:padding="10dp"
+                        android:text="28 Oct 2023"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/custom_bg_pallet_dark"
+                        android:padding="10dp"
+                        android:text="UTY, Yogyakarta"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:fontFamily="monospace"/>
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+</FrameLayout>

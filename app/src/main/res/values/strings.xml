@@ -1,0 +1,16 @@
+<resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBjRTV-RRJ5C48WPDD_dcz4Wjh5SJeu7uc</string>
+    <string name="app_name">TMR9</string>
+    <string name="menu_leaderboard" />
+    <string name="menu_dashboard" />
+    <string name="menu_store" />
+    <string name="menu_profile" />
+    <string name="text_label_1" />
+    <string name="text_label_2" />
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_motor">Motor</string>
+    <string name="title_activity_maps">maps</string>
+</resources>
